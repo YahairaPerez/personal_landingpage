@@ -1,0 +1,588 @@
+.container {
+    margin: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 100%;
+    height: 100%;
+
+}
+
+@media (min-width: 600px) {
+    .container {
+        max-width: 800px;
+   }
+}
+@media (min-width: 1024px) {
+    .container {
+        max-width: 1000px;
+   }
+}
+@media (min-width: 1366px) {
+    .container {
+        max-width: 1300px;
+   }
+}
+
+* {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.section-header {
+    width: 100%;
+    margin: auto;
+    height: 90px;
+    position: sticky;
+    top: 0;
+    padding: 20px 0;
+    background-color: #C2F8CB;
+    
+}
+
+.section-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.align-center {
+    display: flex;
+    align-items: center;
+}
+
+.contenedor-nav {
+    height: 100%;
+    border-bottom: solid #5603AD 2px;
+}
+
+
+.logo {
+    height: 100%;
+}
+
+.logo-imagen {
+    height: 100%;
+}
+
+.logo-imagen img {
+    height: 85%;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.nav li {
+    margin: 0 20px;
+    font-size: 14px;
+
+}
+
+.nav li a {
+    color:#5603AD;
+}
+
+.activo2 {
+    font-weight: 700;
+}
+
+.activo1:hover {
+    font-weight: 700;
+}
+
+.portada {
+    width: 100%;
+    background-color: #C2F8CB;
+    height: 630px;
+}
+
+.portada .container {
+    display: flex;
+    flex-direction: row;
+}
+
+.conoceme {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    position: fixed;
+    bottom: 0;
+}
+
+.iconos-portada {
+    display: flex;
+    flex-direction: column;
+}
+
+.iconos-individuales {
+    width: 25px;
+    height: 25px;
+    margin-bottom: 24px;
+    
+
+}
+
+.iconos-individuales img {
+    width: 100%;
+    height: 100%;
+}
+
+.linea {
+    width: 2px;
+    height: 30vh;
+    background-color: #5603AD;
+    margin-top: 20px;
+}
+
+.yami-presentacion {
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+}
+
+.yami-personal {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.yami-personal img {
+    height: 520px;
+}
+
+.presentacion {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: 'Alfa Slab One', cursive;
+    color: #5603AD;
+    margin-bottom: 5px;
+}
+
+.titulo-herramientas {
+    font-size: 38px;
+    font-family: 'Alfa Slab One', cursive;
+    color: #ffffff;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 400;
+    color: #5603AD;
+}
+
+.bold-text {
+    font-weight: 600;
+
+}
+
+.text {
+    display: flex;
+    
+}
+
+.boton-hablemos {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+
+}
+
+.boton-hablemos a {
+    font-size: 25px;
+    font-weight: 600;
+    background-color: #5603AD;
+    color: #ffffff;
+    padding: 20px 20px;
+    border-radius: 30px;
+}
+
+.activo-boton:hover {
+    background-color: #8e1ffd;
+}
+
+.presentacion img {
+    height: 250px;
+    object-fit: contain;
+}
+
+.gatitos {
+    transform: translateX(-149px);
+}
+
+.herramientas {
+    background-color: #A06CD5;
+    height: auto;
+}
+
+.herramientas .container {
+    padding: 70px 90px;
+}
+
+.herramientas-card {
+   display: flex;
+   flex-wrap: wrap;
+   margin: 100px 70px;
+
+}
+
+.container-tool-4 {
+    display: flex;
+    margin-bottom: 70px;
+}
+
+.container-tool-4 .card:last-child {
+    margin-right: 0;
+}
+
+.card {
+    display: flex;
+    margin-right: 90px;
+}
+
+.card img {
+    height: 70px;
+}
+
+.icono {
+    width: 80px;
+    min-width: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.porcentaje {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+.contacto {
+    background-color: #FFE98C;
+}
+
+.contacto .container {
+    padding: 70px 90px;
+}
+
+.titulo-contacto {
+    font-size: 38px;
+    font-family: 'Alfa Slab One', cursive;
+    color: #5603AD;
+}
+
+
+.form {
+    width: 400px;
+    margin: 70px auto;
+    padding: 40px;
+    background-color: #ffffff;
+    height: max-content;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+input, button {
+    width: 100%;
+    border: 1.5px solid rgba(86, 3, 173, 0.5);
+    border-radius: 10px;
+    height: 40px;
+    margin-bottom: 20px;
+    padding-left: 10px;    
+}
+
+textarea {
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    border: 1.5px solid rgba(86, 3, 173, 0.5);
+    border-radius: 10px;
+    height: 130px;
+    min-height: 130px;
+    max-height: 130px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    resize: none;
+}
+
+input:focus-visible {
+    outline: 1.5px solid #5603AD;
+}
+
+input:focus {
+    outline: 1.5px solid #5603AD;
+}
+
+textarea:focus-visible {
+    outline: 1.5px solid #5603AD;
+}
+
+textarea:focus {
+    outline: 1.5px solid #5603AD;
+}
+
+.form_group {
+    width: 100%;
+}
+
+button {
+    padding-left: 0;
+    width: 65%;
+    margin: auto;
+    background-color: #5603AD;
+    color: #ffffff;
+}
+
+.section-derechos {
+    margin: auto;
+    padding: 20px 150px;
+}
+
+.derechos {
+    display:flex;
+    width: 100%;
+    height: 50%;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 12px;
+    background-color: #FFE98C;
+}
+
+.derechos-reservados {
+    display: flex;
+    justify-content: flex-start;
+    color: #5603AD;
+    font-size: 12px;
+    font-weight: 500;
+
+}
+
+.condiciones {
+    display: flex;
+    justify-content:space-around
+   
+}
+
+.condiciones p {
+    margin-right: 10px;
+    color: #5603AD;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.muru {
+    display: flex;
+    justify-content: flex-end;
+    color: #5603AD;
+    font-weight: 500;
+    
+}
+
+.sub-line {
+    text-decoration: underline;
+}
+
+footer {
+    margin: 100px 150px 0 150px;
+    height: 425px;
+}
+
+
+/* MOBILE*/
+@media only screen and (max-width: 600px) {
+
+    .derechos-reservados {
+        width: 100%;
+        width: 216px;
+    }
+    .section-derechos {
+        flex-direction: column;
+    }
+
+    .condiciones{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .container-tool-4 {
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 0;
+    }
+
+    .card {
+        padding-bottom: 30px ;
+    }
+
+    .presentacion {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+
+    .yami-presentacion {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    h1 {
+        font-size: 45px;
+    }
+
+    .yami-personal img {
+        height: 200px;
+    }
+
+    .portada {
+        height: 700px;
+    }
+
+    .presentacion h3 {
+        padding-right: 80px;
+        padding-left: 80px;
+
+    }
+    .presentacion img {
+        transform: translateX(0px);
+        height: 120px;
+        margin-top: 20px;
+    }
+    
+    .herramientas-card {
+        padding-right: 40px;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .form {
+        width: 320px;
+    }
+
+}
+
+/*TABLET*/
+@media (min-width: 601px) and (max-width: 1024px) {
+
+    .section-derechos {
+        flex-wrap: wrap;
+        justify-content: center;      
+    }
+
+    .container-tool-4 {
+        flex-direction: column;
+        width: 50%;
+        padding-right: 20px;
+        justify-content: center;
+        margin-bottom: 0;
+    }
+
+
+    .presentacion {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+
+    .yami-presentacion {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    .yami-personal img {
+        height: 400px;
+    }
+
+    .portada {
+        height: 1000px;
+    }
+
+    .presentacion img {
+        transform: translateX(0);
+        height: 150px;
+        margin-top: 20px;
+    }
+    .icono {
+        width: 120px;
+        min-width: 120px;
+    }
+    .herramientas-card {
+        padding-right: 40px;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .card {
+        padding-bottom: 30px ;
+    }
+
+
+
+}
+
+@media (min-width: 1025px) and (max-width: 1055px) {
+
+
+}
+
+/* PC PEQUEÑO*/
+@media (min-width: 1025px) and (max-width: 1366px) {
+
+    .container-tool-4 {
+        flex-direction: column;
+        width: 50%;
+        padding-right: 20px;
+        justify-content: center;
+        margin-bottom: 0;
+    }
+
+    .card {
+        padding-bottom: 30px ;
+    }
+
+    .presentacion {
+        padding-left: 50px;
+    }
+
+    .yami-presentacion {
+        width: 100%;
+    }
+    .yami-personal {
+        padding-left: 90px;
+    }
+    .yami-personal img {
+        height: 450px;
+    }
+   
+}
+
+
+
+

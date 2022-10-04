@@ -1,0 +1,163 @@
+
+/* estilos del home */
+.almendra {
+  font-family: 'Almendra';
+}
+html,body{
+  width: 100%;
+}
+
+
+.cabecera-imagen-fondo {
+  height: calc(100vh - 4rem);
+}
+
+@media (max-width: 1000px) {
+  .cabecera-imagen-fondo {
+    height: auto;
+    padding: 100px 0;
+  }
+}
+
+.cabecera-imagen-fondo .imagen-cabecera-fondo {
+  position: absolute;
+  right: 0;
+  z-index: 0;
+  height: 100%;
+}
+
+@media (max-width: 1000px) {
+  .cabecera-imagen-fondo .imagen-cabecera-fondo {
+    display: none;
+  }
+}
+
+.cabecera-imagen-fondo .section-cabecera-home {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.cabecera-imagen-fondo .cabecera-introduccion {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.cabecera-imagen-fondo .titular {
+  font-family: 'Almendra';
+  font-size: 4rem;
+  margin-bottom: 0;
+  margin-top: 0;
+  background-color: transparent;
+}
+
+.cabecera-imagen-fondo h3 {
+  font-weight: 100;
+  width: 368px;
+  line-height: 27px;
+  background-color: transparent;
+  font-size: 18px;
+}
+
+
+.cabecera-imagen-fondo .boton-trabajemos {
+  width: max-content;
+  border-radius: 10px;
+  border: 1px solid #53599A;
+  font-size: 14px;
+  padding: 10px 10px;
+  background-color: #53599A;
+  transition: .5s;
+}
+
+.cabecera-imagen-fondo .boton-trabajemos:hover {
+   background-color: #80DED9;
+  border-color: #80DED9;
+  color: #53599A!important;
+  }
+.cabecera-imagen-fondo .boton-trabajemos:hover a{
+  color: #53599A!important;
+  }
+
+.cabecera-imagen-fondo .boton-trabajemos a {
+  background-color: transparent;
+  font-size: 14px;
+  color: white;
+}
+
+.titulo {
+  font-size: 30px;
+  font-family: 'Almendra';
+}
+
+.titulo p {
+  font-size: 25px;
+  font-family: 'Almendra';
+  font-weight: bolder;
+  text-align: center;
+}
+
+.proyectos, .proyectos-2 {
+  display: flex;
+  margin-bottom: 50px;
+}
+.section-servicios{
+  margin-bottom: 40px;
+}
+
+.proyectos .imagen-proyecto-1, .proyectos-2 .imagen-proyecto-1 {
+  width: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+  .proyectos .imagen-proyecto-1, .proyectos-2 .imagen-proyecto-1 {
+    width: 100%;
+  }
+
+  .cabecera-introduccion {
+    align-items: center;
+  }
+}
+
+.proyectos .imagen-proyecto-1 img, .proyectos-2 .imagen-proyecto-1 img {
+  width: 100%;
+}
+
+.proyectos .contenido-proyectos-1, .proyectos-2 .contenido-proyectos-1 {
+  width: 50%;
+  padding-left: 50px;
+  margin-bottom: 70px;
+}
+  
+
+
+@media only screen and (max-width: 600px) {
+  .proyectos .contenido-proyectos-1, .proyectos-2 .contenido-proyectos-1 {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+}
+
+.proyectos , .proyectos-2  {
+  font-size: 25px;
+  font-family: 'Almendra';
+  font-weight: bolder;
+}
+.boton-conocer a{
+  text-decoration: underline;
+}
+
+.titulo-proyecto {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.contenido-proyecto {
+  font-size: 16px;
+  font-weight: 100;
+}
